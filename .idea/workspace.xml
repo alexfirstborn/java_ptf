@@ -7,7 +7,6 @@
     <list default="true" id="f0a51c14-f7c8-4fb8-8e2d-55ab0f7746df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox/build/classes/java/main/ru/stqa/ptf/sandbox/MyFirstProgramm.class" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/classes/java/main/ru/stqa/ptf/sandbox/MyFirstProgramm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/ptf/sandbox/MyFirstProgramm.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/ptf/sandbox/MyFirstProgramm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +67,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -109,5 +109,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
