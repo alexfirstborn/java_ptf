@@ -77,34 +77,13 @@
       <recent name="ru.stqa.ptf.sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationTest (1)">
+  <component name="RunManager" selected="TestNG.GroupDeletionTest">
     <configuration name="GroupCreationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.GroupCreationTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SquareTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.ptf.sandbox.SquareTest&quot; --stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -154,6 +133,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupDeletionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.GroupDeletionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SquareTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sandbox.test" />
       <extension name="coverage">
@@ -173,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupDeletionTest" />
         <item itemvalue="TestNG.GroupCreationTest (1)" />
         <item itemvalue="TestNG.SquareTest" />
         <item itemvalue="Gradle.GroupCreationTest" />
         <item itemvalue="TestNG.GroupCreationTest" />
-        <item itemvalue="Gradle.SquareTest" />
       </list>
     </recent_temporary>
   </component>
