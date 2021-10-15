@@ -6,7 +6,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
-public class GroupDeletionTest {
+public class GroupDeletionTest extends TestBase {
   private WebDriver wd;
 
 
