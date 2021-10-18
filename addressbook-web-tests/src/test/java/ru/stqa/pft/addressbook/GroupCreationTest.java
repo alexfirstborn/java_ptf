@@ -13,5 +13,4 @@ public class GroupCreationTest extends TestBase {
     returnToGroupPage();
     logout();
   }
-
 }
