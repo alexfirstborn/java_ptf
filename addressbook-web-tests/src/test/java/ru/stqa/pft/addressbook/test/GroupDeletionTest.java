@@ -10,7 +10,7 @@ public class GroupDeletionTest extends TestBase {
   public void testGroupDeletion() throws Exception {
     app.getNavigationHelper().gotoGroupPage();
     int before = app.getGroupHelper().getGroupCount();
-    app.getGroupHelper().selectGroup("selected[]");
+    app.getGroupHelper().selectGroup(before - 1);
     app.getGroupHelper().deleteSelectedGroups("delete");
     app.getGroupHelper().returnToGroupPage();
     int after = app.getGroupHelper().getGroupCount();
